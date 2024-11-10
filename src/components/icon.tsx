@@ -1,5 +1,5 @@
 'use client'
-import React, { FC } from 'react'
+import React from 'react'
 import { Icon } from '@iconify/react';
 
 
@@ -8,7 +8,7 @@ interface Props {
     className?: string
 }
 
-const Iconify: FC<Props> = ({ icon, className }: Props) => {
+const Iconify = ({ icon, className }: Props) => {
     return (
         <Icon icon={icon} className={className} />
     )

@@ -1,8 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
 import React from "react";
-import Logo1 from "../../../public/images/herosection/partner1.svg";
-import Logo2 from "../../../public/images/herosection/partner2.svg";
+import Logo1 from "../../public/images/herosection/partner1.svg";
+import Logo2 from "../../public/images/herosection/partner2.svg";
 import Image from "next/image";
 
 const PartnershipCarousel = () => {

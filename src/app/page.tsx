@@ -1,17 +1,16 @@
 import Image from "next/image";
-import Navbar from "./components/navbar";
-import Button from "./components/button";
+import Navbar from "../components/navbar";
+import Button from "../components/button";
 import HeroImg1 from "../../public/images/herosection/progress.svg";
 import HeroImg2 from "../../public/images/herosection/chart1.svg";
 import HeroImg3 from "../../public/images/herosection/chart2.svg";
-import PartnershipCarousel from "./components/partnershipCarousel";
+import PartnershipCarousel from "../components/partnershipCarousel";
 import ServiceImg1 from "../../public/images/ourservices/img1.svg";
 import ServiceImg2 from "../../public/images/ourservices/img2.svg";
 import ServiceImg3 from "../../public/images/ourservices/img3.svg";
 import ServiceImg4 from "../../public/images/ourservices/img4.png";
 import ServiceImg5 from "../../public/images/ourservices/img5.png";
-import Iconify from "./components/icon";
-import Testimonial from "./components/testimonial";
+import Testimonial from "../components/testimonial";
 import TestnlImg from "../../public/images/testimonial/img4.png";
 import BlogImg1 from "../../public/images/blog/img1.svg";
 import BlogImg2 from "../../public/images/blog/img2.png";
@@ -19,6 +18,7 @@ import BlogImg3 from "../../public/images/blog/img3.svg";
 import BlogImg4 from "../../public/images/blog/img4.png";
 import BlogImg5 from "../../public/images/blog/img5.png";
 import BlogImg6 from "../../public/images/blog/img6.png";
+import Iconify from "../components/icon";
 
 export default function Home() {
   return (

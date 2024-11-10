@@ -2,17 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.partner_gradient {
-  background: rgb(9, 18, 7);
-  background: linear-gradient(
-    90deg,
-    #0a2640 1%,
-    rgba(255, 255, 255, 0) 8%,
-    rgba(255, 255, 255, 0) 92%,
-    #0a2640 100%
-  );
-}
-
 .page_sections {
   @apply max-w-7xl mx-auto px-4 space-y-20;
 }

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Logo from "../../../public/images/Logo.png";
+import Logo from "../../public/images/Logo.png";
 import Button from "./button";
 import Link from "next/link";
 

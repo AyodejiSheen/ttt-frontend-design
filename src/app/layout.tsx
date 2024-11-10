@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope, Open_Sans } from "next/font/google";
 import "./globals.css";
-import Footer from "./components/footer";
+import Footer from "../components/footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
