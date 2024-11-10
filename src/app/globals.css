@@ -2,20 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.partner_gradient {
+  background: rgb(9, 18, 7);
+  background: linear-gradient(
+    90deg,
+    #0a2640 1%,
+    rgba(255, 255, 255, 0) 8%,
+    rgba(255, 255, 255, 0) 92%,
+    #0a2640 100%
+  );
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.page_sections {
+  @apply max-w-7xl mx-auto px-4 space-y-20;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.page_sections_pad {
+  @apply py-[120px];
 }
